@@ -48,7 +48,7 @@ bot.once("ready", function() {
 		console.log("Database is now connected");
 	}).catch((err) => {
 		console.log(err);
-		console.log("Failed to connect to database. Exitting...");
+		console.log("Failed to connect to database. Exiting...");
 		process.exit();
 		return;
 	});
